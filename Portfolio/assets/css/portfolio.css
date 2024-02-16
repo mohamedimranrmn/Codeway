@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+*{
+  font-family: "protest Riot",sans-serif;
+  margin: 0;
+  border: 0;
+  background-color: #0d0d0e;
+}
+#home {
+  height: 100vh;
+}
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+}
+a{
+  color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: rgba(26,24,24,0.616);
+  border-radius: 5px;
+  font-size: 15px;
+  transition: 200ms;
+}
+
+a:hover{
+  background-color: rgb(79, 82, 82);
+}
+.home {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-content {
+  height: 60%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  color: azure;
+  align-items: center;
+
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #050506 -10px,-10px,20px #151516;
+}
+.home{
+  background-color: rgb(13, 3, 45);
+}
+.home-content-img{
+  height: 280px;
+  width: 200px;
+  object-fit: cover;
+  border-radius:20px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  color: blue;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+h1:hover{
+  color: rgb(157, 135, 163);
+}
+p{
+  margin-left: 115px;
+  color: rgb(188, 181, 193);
+  line-height: 25px;
+  font-size: 25px;
+}
+.skills {
+  background-color: #02142e;
+  text-align: center;
+  padding: 15px;
+  margin-top: 150px;
+}
+
+.skills ul li {
+  border: 1px solid #0984e3;
+  list-style: none;
+  padding: 7px;
+  border-radius: 2px;
+  margin: 0 10px 10px 0;
+  color: #0984e3;
+}
+
+#skill-h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pro1 p, .pro2 p, .pro3 p{
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid #0984e3;
+  margin-left: 5px;
+  margin-bottom: 40px;
+}
+#img {
+  display: grid;
+  place-content: center;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.pro1 h2{
+  margin-bottom: 30px;
+  text-align: center;
+  color: #0984e3;
+  text-transform: uppercase;
+}
+.pro1 h1{
+  margin-left: 0;
+}
+ 
+.pro2 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #0984e3;
+  text-transform: uppercase;
+}
+ 
+.pro3 h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #0984e3;
+  text-transform: uppercase;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
